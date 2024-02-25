@@ -1,0 +1,171 @@
+*, *:after, *:before{
+    
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 1800px;
+    margin: 100%;
+}
+
+#card p {
+    padding: 5px;
+}
+
+#card .card-image {
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-image p {
+    color: hsl(0, 0%, 100%);
+}
+
+.coin {
+    width: 100%;
+    display: flex; 
+     justify-content: space-between;
+     margin: 15px;
+}
+
+.coin .eth{
+    display: flex;
+}
+
+.days {
+    display: flex;
+}
+
+.footer {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+} */
+
+#card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card-image {
+    padding-bottom: 76.25%;
+    position: relative;   
+}
+
+.card-image img{
+    position: absolute;
+    right:15px;
+    top: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding-top: 2.9rem;
+    padding-left: 1rem;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    line-height: .33;
+    font-weight: 700;
+    color: azure;
+}
+
+.card-text p {
+    padding-top: 0.2;
+    line-height: 1.5;
+    font-size: 0.85rem;
+    color: lightgray;
+    opacity: .5;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth, .days {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: beige;
+    font-size: .69rem;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    padding-right: 1rem;
+}
+
+.footer {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.footer img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.footer p {
+    margin-left: 0.75rem;
+}
+
+.footer span {
+    color: hsl(0, 0%, 100%);
+}
+
+
+hr {
+    width: 95%;
+    color: lightgray;
+    opacity: 0.1;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
