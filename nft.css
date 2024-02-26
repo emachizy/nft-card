@@ -144,6 +144,9 @@ body {
 
 .footer p {
     margin-left: 0.75rem;
+    color: lightgray;
+    font-size: 1.1rem;
+    opacity: .7;
 }
 
 .footer span {
