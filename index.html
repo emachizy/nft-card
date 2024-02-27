@@ -39,6 +39,28 @@
 
     </div>
     <!-- <img class="eth-icon" src="images/eth-ico.png" alt="" width="10" height="10"> -->
-
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBVJb2-qU3oO44FW1om7lguZD5VGqc88lA",
+          authDomain: "nft-card-frontendmentor.firebaseapp.com",
+          projectId: "nft-card-frontendmentor",
+          storageBucket: "nft-card-frontendmentor.appspot.com",
+          messagingSenderId: "377324616365",
+          appId: "1:377324616365:web:3bb0647ceb94507dade424",
+          measurementId: "G-R21RE3RDP6"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
